@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String
+
 class Soldado():
     def __init__(self,comida,madera,oro,poder):
         self.comida = comida

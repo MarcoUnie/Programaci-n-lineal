@@ -1,9 +1,1 @@
-ortools
-SciPy
-PulP
-Pyomo
-numpy
-pandas
-matplotlib
-sqlite
-sqlalchemy
+sqlite3
