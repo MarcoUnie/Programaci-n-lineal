@@ -2,7 +2,7 @@ ortools
 SciPy
 PulP
 Pyomo
-nump
+numpy
 pandas
 matplotlib
 sqlite
