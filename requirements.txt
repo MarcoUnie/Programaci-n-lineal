@@ -2,3 +2,8 @@ ortools
 SciPy
 PulP
 Pyomo
+nump
+pandas
+matplotlib
+sqlite
+sqlalchemy
