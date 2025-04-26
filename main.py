@@ -20,11 +20,11 @@ def create_resources_db():
         )
     ''')
     
-    for unit, food, wood, gold, _ in units_data:
+    for unidad, comida, madera, oro, _ in units_data:
         cursor.execute('''
             INSERT OR REPLACE INTO resources (unit, food, wood, gold)
             VALUES (?, ?, ?, ?)
-        ''', (unit, food, wood, gold))
+        ''', (unidad, comida, madera, oro))
     
     conn.commit()
     conn.close()
@@ -40,11 +40,11 @@ def create_soldiers_db():
         )
     ''')
     
-    for unit, _, _, _, power in units_data:
+    for unidad, _, _, _, poder in units_data:
         cursor.execute('''
             INSERT OR REPLACE INTO soldiers (unit, power)
             VALUES (?, ?)
-        ''', (unit, power))
+        ''', (unidad, poder))
     
     conn.commit()
     conn.close()
